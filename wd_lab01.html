@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Udit Resume</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="fa/css/all.css" rel="stylesheet">
+	<style>
+		:root {
+		  --primary-t: black;
+		  --secondary-t: rgba(0, 0, 0, 0.7);
+		  --primary-b : rgba(16, 34, 72, 0.4);
+		  --secondary-b : rgba(0, 0, 0, .5);
+		}
+		@font-face {
+		  font-family: BRUSHSCI;
+		  src: url(BRUSHSCI.ttf);
+		}
+		body {
+			font-family: Georgia;
+		}
+		.resume-box {
+			padding-left: 9rem;
+			padding-right: 9rem;			
+		}
+		hr.style1 {
+			border-bottom: 5px solid rgba(0, 0, 0, .5);
+		}
+		hr.style2 {
+			margin-left: 1rem;
+			margin-right: 1rem;
+			border-bottom: 2px solid var(--primary-b);
+		}
+
+		.bg-prima {
+			background-color: var(--primary-b);
+			/*height: 1.5rem;*/
+		}
+
+		.name-field {
+			/*font-family: BRUSHSCI;*/
+			/*font-family: monospace;*/
+			letter-spacing: 1rem;
+			text-shadow: 3px 3px rgba(0, 0, 0, .3);
+		}
+		.bl-1 {
+			border-left: 1px solid var(--primary-b);
+		}
+		.br-1 {
+			border-right: 1px solid var(--primary-b);
+		}
+		.hover-effect-1 {
+			transition: .4s;
+		}
+		.hover-effect-1:hover {
+			transition: .4s;
+			color: black;
+			background-color: var(--primary-b) ;
+		}
+		.primary-text-color {
+			color: var(--primary-t);
+		}
+		.secondary-text-color {
+			color: var(--secondary-t);
+		}
+		.underline--magical {
+			color : white;
+			background-image: linear-gradient(120deg, var(--primary-t) 0%, var(--primary-b) 100%);
+			background-repeat: no-repeat;
+			background-size: 100% 0.4em;
+			background-position: 0 88%;
+			transition: background-size 0.25s ease-in;
+		}
+		.underline--magical:hover {
+		 	background-size: 100% 88%;
+		}
+
+		.glow-hover:hover {
+		  color: var(--primary-b);
+		  box-shadow: 0 0 5px var(--primary-b);
+		  text-shadow: 0 0 5px var(--primary-b);
+		}
+
+	</style>
+</head>
+<body> 
+	<div class="container resume-box">
+		<hr class="style1" />
+		<br />
+		<!-- Header -->
+		<div class="Header pl-2 pr-2">
+			<div class="row">
+				<div class="col-9">
+					<!-- Name -->
+				  	<h1 class="name-field text-left text-uppercase underline--magical">Udit Gupta </h1>
+				  	<br />
+				  	<div class="row">
+				  		<div class="col-7">
+				  		  	<i>
+								<h6>B.Tech 3rd Year </h6>
+								<h6>Computer Science and Engineering</h6>
+								<!-- <h6>(ABES Engineering College)</h6> -->
+							</i>
+				  		</div>
+				  		<!-- Details -->
+				  		<div class="col-5 text-right">
+				  		  	udit001gupta@gmail.com <i class="fas fa-envelope"></i>
+							<br>					
+							+91 8601963376 <i class="fas fa-phone"></i>
+							<br>
+							<!-- Social Media Profiles -->
+							<span><i class="fab fa-linkedin glow-hover"></i></span> &nbsp;
+							<span><i class="fab fa-github glow-hover"></i></span> &nbsp;
+							<span><i class="fab fa-stack-overflow glow-hover"></i></span>
+				  		</div>
+				  	</div>		
+				</div>
+				<!-- Photo -->
+				<div class="col-3">
+				  	<img src="UditG.jpg" class="img-fluid rounded" alt="UG">
+				</div>
+			</div>
+			<br />
+			<p class="secondary-text-color font-italic">
+				I am inquisitive and a fast-learner. I have advanced skills in problem solving, data structures
+				and algorithms. I have worked in the field of Web Development and Data Science and my programming
+				languages preferences include C++ and Python3.
+			</p>
+		</div>
+		<br>
+		<!-- Education -->
+		<div class="Education">
+			<h4><i><b>Education</b></i></h4>
+			<hr class="style2" />
+			<div class="row secondary-text-color">
+				<div class="col-6 text-right">
+				  	<h5 class="primary-text-color">ABES Engineering College</h5>
+				  	<h6><i>Ghaziabad, U.P.</i></h6>
+				  	<h6>Bachelor of Technology in Computer Science</h6>
+				  	<h6><i>2018 - 2022</i></h6>
+				  	<h6>SGPA ~ <b>9.0</b></h6>
+				</div>
+				
+				<div class="col-6">
+				  	<h5 class="primary-text-color">R.P.M. Academy</h5>
+				  	<h6><i>Gorakhpur, U.P.</i></h6>
+				  	<h6>High School and Intermediate</h6>
+				  	<h6><i>2014 - 2017</i></h6>
+				  	<h6>12th - <b>92%</b> & 10th - <b>95%</b></h6>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- Skills -->
+		<div class="Skills">
+			<h4><i><b>Skills</b></i></h4>
+			<hr class="style2" />
+			<div class="row">
+				<div class="col-4 br-1">
+				  	<h5>Front-End Web Development</h5>
+				  	<p class="secondary-text-color font-italic">
+				  		Highly skilled in HTML5, CSS3, JavaScript, TypeScript and ReactJS for Front-End Web Designing.
+
+				  	</p>
+				</div>
+				<div class="col-4 text-center">
+				  	<h5>Data Science</h5>
+				  	<p class="secondary-text-color font-italic">
+				  		Have worked on several ML projects using Python3, Numpy, Pandas, Matplotlib and Tableau for
+				  		data visualisation.
+				  	</p>
+				</div>
+				<div class="col-4 text-right bl-1">
+				  	<h5>Competitive Programming</h5>
+				  	<p class="secondary-text-color font-italic">
+				  		Highly active on coding platforms such as Codeforces, Codechef, Leetcode etc and have solved over 
+				  		1700 problems using C++ and Python3.
+				  	</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- Technology -->
+		<div class="Technology">
+			<h4><i><b>Technology</b></i></h4>
+			<hr class="style2" />
+			<table class="table table-striped text-center">
+				<tr>
+					<td>Python</td>
+					<td>HTML5</td>
+					<td>MySQL</td>
+					<td>Linux Mint(Ulyana)</td>
+				</tr>
+				<tr>
+					<td>C++</td>
+					<td>CSS3</td>
+					<td>Git</td>
+					<td>OSX</td>
+				</tr>
+				<tr>
+					<td>ReactJS</td>
+					<td colspan="2">JavaScript / TypeScript</td>
+					<td>Windows10</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<!-- Projects -->
+		<div class="Projects">
+			<h4><i><b>Projects</b></i></h4>
+			<hr class="style2" />
+			<div class="list-group">
+				<a href="https://github.com/luctivud/Data-Analysis-and-Machine-Learning/tree/master/Income%20Classification" 
+					class="list-group-item list-group-item-action flex-column align-items-start hover-effect-1"> 
+					<div class="d-flex w-100 justify-content-between">
+						<h5 class="primary-text-color"> Income Classification <i>(Machine Learning)</i> </h5>
+						<small class="text-right">May 2020 - June 2020</small>
+					</div>
+					<p>
+						To classify a person of given attributes of age, qualifications, gender, etc into 2 categories of Classification
+						by predicting income of the individual under the categories. Models used are Random Forest, KNN, Regression and
+						Naive Bayes.
+						<br>
+						Technology Used : Python3
+					</p>
+				</a>
+
+				<a href="https://github.com/luctivud/Data-Analysis-and-Machine-Learning/tree/master/Customer-Segmentation" 
+					class="list-group-item list-group-item-action flex-column align-items-start hover-effect-1"> 
+					<div class="d-flex w-100 justify-content-between">
+						<h5 class="primary-text-color">Customer Segmentation <i>(Machine Learning)</i></h5>
+						<small class="text-right">Dec 2020</small>
+					</div>
+					<p>
+						To create a Segmentation of users and classify them to loyal customers with Gold, Silver and Regular membership
+						with the help of K Means. The classification is done based on the attributes of purchases and amount at the 
+						given time.
+						<br>
+						Technology Used : Python3
+					</p>
+				</a>
+				<a href="https://github.com/luctivud/Mini-Project-2019" 
+					class="list-group-item list-group-item-action flex-column align-items-start hover-effect-1"> 
+					<div class="d-flex w-100 justify-content-between">
+						<h5 class="primary-text-color">Seminar Booking Management System <i>(UI Designing)</i></h5>
+						<small class="text-right">Nov 2019 - Nov 2019</small>
+					</div>
+					<p>
+						Designing the User Interface of a seminar hall booking System using HTML, CSS and JavaScript. 
+						<br>
+						Technology Used : HTML5, CSS3, JavaScript, Bootstrap4
+
+					</p>
+				</a>
+			</div>
+		</div>
+
+		<br>
+		<!-- Experience -->
+		<div class="Experience">
+			<h4><i><b>Experience</b></i></h4>
+			<hr class="style2" />
+			<ul>
+				<li><h5><b>Front-End Web Developer Intern</b></h5></li>
+				<h5>DevsLane Technologies</h5>
+				<i>05/2019 - 08/2019</i><br>
+				<i>worked on projects with HTML5, CSS3, TypeScript, Git</i>
+			</ul>
+		</div>
+
+		<br>
+		<!-- Achievements -->
+		<div class="Achievements">
+			<h4><i><b>Achievements</b></i></h4>
+			<hr class="style2" />
+			<ul>
+				<li>Joint Secretary of Rotaract Club (District 3012)</li>
+				<li>5 Star Coder on Codechef</li>
+				<li>Specialist on Codeforces</li>
+				<li>588th Rank in Google Kickstart 2020 Round E</li>
+			</ul>
+		</div>
+
+		<br />
+		<hr class="style1" />
+	</div>
+	
+
+</body>
+</html>
